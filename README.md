@@ -12,7 +12,7 @@ portfolio/
 ├── js/main.js          # mobile menu, scrollspy, scroll reveal
 ├── assets/
 │   ├── Sue-Ho-Resume.pdf
-│   └── img/profile.jpg
+│   └── img/profile-portrait.webp
 └── README.md
 ```
 
