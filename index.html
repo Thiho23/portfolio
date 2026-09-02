@@ -45,9 +45,10 @@
         <p class="hero__eyebrow">Sydney, NSW &middot; Open to opportunities</p>
         <h1 class="hero__title">Hi, I&rsquo;m <span class="accent">Sue Ho</span>.<br>I build things for the web.</h1>
         <p class="hero__lede">
-          Bachelor of IT graduate and junior developer working with JavaScript, Java, PHP and modern
-          web technologies. I care about clean, accessible interfaces &mdash; and I bring six years of
-          fast-paced customer service experience to how I work with people and deadlines.
+          Bachelor of IT graduate, currently interning as a software developer at YoungLogix, where I
+          build custom ERP modules in Python. I care about clean, accessible interfaces &mdash; and I
+          bring six years of fast-paced customer service experience to how I work with people and
+          deadlines.
         </p>
         <div class="hero__actions">
           <a class="btn" href="#projects">View my work</a>
@@ -60,7 +61,7 @@
         </ul>
       </div>
       <div class="hero__portrait">
-        <img src="assets/img/profile.jpg" alt="Portrait of Sue Ho" width="360" height="360">
+        <img src="assets/img/profile-portrait.webp" alt="Portrait of Sue Ho" width="360" height="360">
       </div>
     </div>
   </section>
@@ -75,12 +76,19 @@
         <div class="about__body">
           <p>
             I graduated from Kent Institute with a Bachelor of Information Technology in 2025, and I am
-            currently completing a Professional Year at Performance Education &mdash; sharpening the
-            business analysis, documentation and stakeholder communication side of software work.
+            currently a software developer intern at YoungLogix while completing a Professional Year at
+            Performance Education.
           </p>
           <p>
-            My favourite part of a project is the moment a messy business requirement turns into a
-            wireframe, and then into something people can actually click. That is what I did on
+            Most of my week is spent in a production Odoo codebase, writing Python and XML for
+            equipment maintenance and inventory modules. It is the first time my code has had real
+            users behind it, and it has taught me things a university project cannot &mdash; reading
+            an unfamiliar codebase, keeping changes reviewable, and asking the question that saves a
+            day of work.
+          </p>
+          <p>
+            My favourite part of a project is still the moment a messy business requirement turns into
+            a wireframe, and then into something people can actually click. That is what I did on
             <a href="#projects">Jot Bikes</a>, my final-year rental management system, where I owned
             the UI/UX framework across three user modules and co-authored the SRS report.
           </p>
@@ -93,10 +101,10 @@
         </div>
 
         <ul class="about__facts">
+          <li><strong>Developer intern</strong><span>YoungLogix, since Jul 2026</span></li>
           <li><strong>Bachelor of IT</strong><span>Kent Institute, 2025</span></li>
           <li><strong>Professional Year</strong><span>Performance Education, in progress</span></li>
           <li><strong>High Distinction</strong><span>Final-year capstone project</span></li>
-          <li><strong>6+ years</strong><span>Customer-facing team experience</span></li>
         </ul>
       </div>
     </div>
@@ -112,25 +120,25 @@
         <article class="skill-card">
           <h3>Languages</h3>
           <ul class="tags">
-            <li>JavaScript</li><li>Java</li><li>PHP</li><li>SQL</li>
+            <li>Python</li><li>JavaScript</li><li>Java</li><li>PHP</li><li>SQL</li><li>XML</li>
           </ul>
         </article>
         <article class="skill-card">
           <h3>Web development</h3>
           <ul class="tags">
-            <li>HTML5</li><li>CSS3</li><li>Responsive design</li><li>Bootstrap</li><li>UI/UX design</li>
+            <li>HTML5</li><li>CSS3</li><li>SCSS</li><li>Responsive design</li><li>Bootstrap</li><li>UI/UX design</li>
           </ul>
         </article>
         <article class="skill-card">
-          <h3>Databases</h3>
+          <h3>Platforms &amp; data</h3>
           <ul class="tags">
-            <li>MongoDB</li><li>SQL Server</li><li>Query writing</li><li>Database design</li>
+            <li>Odoo 19</li><li>PostgreSQL</li><li>MongoDB</li><li>SQL Server</li><li>Docker</li>
           </ul>
         </article>
         <article class="skill-card">
           <h3>Tools &amp; practice</h3>
           <ul class="tags">
-            <li>Git &amp; GitHub</li><li>Figma</li><li>Visual Studio</li><li>Wireframing</li><li>Prototyping</li>
+            <li>Git &amp; GitHub</li><li>Pull request review</li><li>Figma</li><li>Wireframing</li><li>Prototyping</li>
           </ul>
         </article>
       </div>
@@ -144,6 +152,32 @@
       <h2 class="section__title">Selected work</h2>
 
       <div class="projects">
+
+        <article class="project">
+          <div class="project__meta">
+            <span class="badge badge--hd">Production</span>
+            <span class="project__date">Jul 2026 &ndash; Present</span>
+          </div>
+          <h3 class="project__title">Odoo ERP Modules &mdash; Maintenance &amp; Inventory</h3>
+          <p class="project__role">YoungLogix &middot; Internship &middot; Backend and web client</p>
+          <p>
+            Custom modules extending Odoo 19 for equipment maintenance, inventory and internal
+            workflow automation &mdash; my first work on a production codebase with real users,
+            alongside a team of eight developers.
+          </p>
+          <ul class="project__points">
+            <li>Built equipment logs, maintenance schedules and inspection checklists on top of Odoo&rsquo;s maintenance and survey models.</li>
+            <li>Added document intelligence for manuals and SOPs: automatic matching, duplicate detection, and suggestions a person can accept or reject.</li>
+            <li>Extended the web client with JavaScript and SCSS for custom tabs, keyword chips and inline file previews.</li>
+            <li>Wrote Git and PowerShell tooling that fixed Docker file locks breaking branch switches for the whole team.</li>
+          </ul>
+          <ul class="tags tags--sm">
+            <li>Python</li><li>Odoo 19</li><li>XML</li><li>JavaScript</li><li>PostgreSQL</li><li>Docker</li><li>Git</li>
+          </ul>
+          <p class="project__links">
+            <span class="project__note">Private client codebase &mdash; happy to talk through the work in an interview.</span>
+          </p>
+        </article>
 
         <article class="project">
           <div class="project__meta">
@@ -226,6 +260,23 @@
       <h2 class="section__title">Where I have worked</h2>
 
       <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__when">Jul 2026 &mdash; Present</div>
+          <div class="timeline__what">
+            <h3>Software Developer Intern</h3>
+            <p class="timeline__org">YoungLogix Pty Ltd &middot; Sydney</p>
+            <ul>
+              <li>Develop and maintain custom Odoo 19 modules in Python and XML for equipment maintenance, inventory and internal workflow automation.</li>
+              <li>Built equipment logging, maintenance scheduling and standard inspection checklists, integrating Odoo&rsquo;s survey framework into the maintenance workflow.</li>
+              <li>Implemented document handling for equipment manuals and SOPs, including automatic matching, duplicate detection and reviewable suggestions.</li>
+              <li>Added keyword search and filter chips across equipment views to make large records lists usable.</li>
+              <li>Extended the Odoo web client with JavaScript and SCSS for custom tabs, chips and file previews.</li>
+              <li>Wrote developer tooling in PowerShell and Git hooks to make Docker-based branch switching reliable for the team.</li>
+              <li>Contributed ~190 commits across feature branches and pull requests in a team of eight developers.</li>
+            </ul>
+          </div>
+        </li>
+
         <li class="timeline__item">
           <div class="timeline__when">Apr 2023 &mdash; Present</div>
           <div class="timeline__what">

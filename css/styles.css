@@ -200,10 +200,11 @@ ul { margin: 0; padding: 0; }
 .hero__portrait img {
   /* height:auto is required — without it the img's height attribute wins and
      aspect-ratio is ignored, leaving the portrait stretched rather than square. */
-  width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center top;
+  width: 100%; height: auto; aspect-ratio: 1; object-fit: cover;
   border-radius: 20px;
   box-shadow: var(--shadow);
   border: 1px solid var(--line);
+  background: var(--bg-alt);   /* shows while the image loads */
 }
 
 /* ---------- Sections ---------- */
@@ -449,3 +450,5 @@ ul { margin: 0; padding: 0; }
   .section { padding: 1rem 0; break-inside: avoid; }
   .project, .edu-card, .skill-card { break-inside: avoid; border-color: #ccc; }
 }
+
+.project__note { color: var(--ink-faint); font-size: .88rem; font-style: italic; }
